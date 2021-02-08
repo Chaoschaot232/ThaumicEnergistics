@@ -11,6 +11,8 @@ public interface IThELang {
 
     IThELangKey tileInfusionProvider();
 
+    IThELangKey tileArcaneAssembler();
+
     IThELangKey itemDiffusionCore();
 
     IThELangKey itemCoalescenceCore();
@@ -43,6 +45,10 @@ public interface IThELang {
 
     IThELangKey itemArcaneChargingUpgrade();
 
+    IThELangKey itemKnowledgeCore();
+
+    IThELangKey itemBlankKnowledgeCore();
+
     IThELangKey tooltipWIP();
 
     IThELangKey guiEssentiaImportBus();
@@ -55,6 +61,8 @@ public interface IThELang {
 
     IThELangKey guiArcaneTerminal();
 
+    IThELangKey guiArcaneInscriber();
+
     IThELangKey guiVisRequired();
 
     IThELangKey guiVisRequiredOutOf();
@@ -62,6 +70,20 @@ public interface IThELang {
     IThELangKey guiVisAvailable();
 
     IThELangKey guiVisDiscount();
+
+    IThELangKey guiInsertKnowledgeCore();
+
+    IThELangKey guiKnowledgeCoreBlank();
+
+    IThELangKey guiRecipeAlreadyStored();
+
+    IThELangKey guiRecipeNotArcane();
+
+    IThELangKey guiNoRecipe();
+
+    IThELangKey guiOutOfAspect();
+
+    IThELangKey guiOutOfVis();
 
     IThELangKey researchCategory();
 }
